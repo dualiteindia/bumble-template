@@ -20,8 +20,8 @@ export const MOCK_PROFILES: Profile[] = [
     job: 'Graphic Designer',
     verified: true,
     images: [
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000&auto=compress&fit=crop',
+      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=compress&fit=crop',
     ],
     interests: ['Coffee', 'Design', 'Travel'],
   },
@@ -34,8 +34,8 @@ export const MOCK_PROFILES: Profile[] = [
     job: 'Marketing Manager',
     verified: true,
     images: [
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1000&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1000&auto=compress&fit=crop',
+      'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1000&auto=compress&fit=crop',
     ],
     interests: ['Cooking', 'Marketing', 'Yoga'],
   },
@@ -48,7 +48,7 @@ export const MOCK_PROFILES: Profile[] = [
     job: 'Teacher',
     verified: false,
     images: [
-      'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1000&auto=compress&fit=crop',
     ],
     interests: ['Hiking', 'Nature', 'Dogs'],
   },
@@ -61,7 +61,7 @@ export const MOCK_PROFILES: Profile[] = [
     job: 'Software Engineer',
     verified: true,
     images: [
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000&auto=compress&fit=crop',
     ],
     interests: ['Coding', 'Gaming', 'Sci-Fi'],
   },
@@ -74,11 +74,11 @@ export const MOCK_PROFILES: Profile[] = [
     job: 'Founder',
     verified: true,
     images: [
-      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000&auto=compress&fit=crop',
     ],
     interests: ['Business', 'Startups', 'Gym'],
   },
-   {
+  {
     id: '6',
     name: 'Olivia',
     age: 25,
@@ -87,7 +87,7 @@ export const MOCK_PROFILES: Profile[] = [
     job: 'Curator',
     verified: true,
     images: [
-      'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1000&auto=compress&fit=crop',
     ],
     interests: ['Art', 'Museums', 'Wine'],
   },
@@ -100,7 +100,7 @@ export const MOCK_PROFILES: Profile[] = [
     job: 'Architect',
     verified: false,
     images: [
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=compress&fit=crop',
     ],
     interests: ['Architecture', 'Travel', 'Photography'],
   },
@@ -113,7 +113,7 @@ export const MOCK_PROFILES: Profile[] = [
     job: 'Student',
     verified: true,
     images: [
-      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=compress&fit=crop',
     ],
     interests: ['Books', 'Learning', 'Music'],
   },
@@ -126,7 +126,7 @@ export const MOCK_PROFILES: Profile[] = [
     job: 'Musician',
     verified: true,
     images: [
-      'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=1000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=1000&auto=compress&fit=crop',
     ],
     interests: ['Music', 'Guitar', 'Concerts'],
   },
@@ -139,7 +139,7 @@ export const MOCK_PROFILES: Profile[] = [
     job: 'Chef',
     verified: true,
     images: [
-      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?q=80&w=1000&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?q=80&w=1000&auto=compress&fit=crop',
     ],
     interests: ['Food', 'Cooking', 'Restaurants'],
   }
@@ -152,7 +152,7 @@ export const MOCK_CHATS = [
     message: 'Hey! How\'s it going?',
     time: '2m',
     unread: true,
-    avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1000&auto=format&fit=crop',
+    avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1000&auto=compress&fit=crop',
   },
   {
     id: '2',
@@ -160,7 +160,7 @@ export const MOCK_CHATS = [
     message: 'Love your profile! Do you like hiking?',
     time: '1h',
     unread: false,
-    avatar: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=1000&auto=format&fit=crop',
+    avatar: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=1000&auto=compress&fit=crop',
   },
   {
     id: '3',
@@ -168,6 +168,6 @@ export const MOCK_CHATS = [
     message: 'What do you like to do for fun?',
     time: '3h',
     unread: false,
-    avatar: 'https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?q=80&w=1000&auto=format&fit=crop',
+    avatar: 'https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?q=80&w=1000&auto=compress&fit=crop',
   },
 ];
